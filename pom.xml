@@ -32,7 +32,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.2</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 						<username>ManasaSai</username>
 						<password>Krishraj@09</password>
 						<applicationName>uhub-sapi-app</applicationName>
