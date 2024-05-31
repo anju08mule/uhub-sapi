@@ -88,12 +88,12 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<sharedLibraries>
+					<!-- <sharedLibraries>
 						<sharedLibrary>
 							<groupId>com.mycompany</groupId>
 							<artifactId>ojdbc11</artifactId>
 						</sharedLibrary>
-					</sharedLibraries>
+					</sharedLibraries> -->
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.2</muleVersion>
