@@ -9,7 +9,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>uhub-sapi-app-des</name>
+	<name>uhub-sapi</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,15 +96,14 @@
 					</sharedLibraries> -->
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.2</muleVersion>
-						<username>ManasaSai</username>
-						<password>Krishraj@09</password>
-						<applicationName>uhub-sapi-app</applicationName>
-						<environment>Sandbox</environment>
-						<region>us-east-1</region>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
+						<muleVersion>4.3.0</muleVersion>
+						<username>${username}</username>
+						<password>${password}</password>
 						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<anypoint.platform.base_uri>https://anypoint.mulesoft.com/</anypoint.platform.base_uri>
+							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com/</anypoint.platform.analytics_base_uri>
+						</properties>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
